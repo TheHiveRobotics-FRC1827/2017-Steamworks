@@ -120,13 +120,14 @@ AddOutputFilter chunkFilter
 		<Item Name="Globals" Type="Folder">
 			<Item Name="Joystick1_YAxis.vi" Type="VI" URL="../Globals/Joystick1_YAxis.vi"/>
 			<Item Name="Joystick2_YAxis.vi" Type="VI" URL="../Globals/Joystick2_YAxis.vi"/>
-			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+			<Item Name="SpinnerMotorsValue.vi" Type="VI" URL="../Globals/SpinnerMotorsValue.vi"/>
 			<Item Name="SpinnerMotorValue.vi" Type="VI" URL="../Globals/SpinnerMotorValue.vi"/>
 			<Item Name="SpinnerSecondMotorValue.vi" Type="VI" URL="../Globals/SpinnerSecondMotorValue.vi"/>
 			<Item Name="WindowMotorValue.vi" Type="VI" URL="../Globals/WindowMotorValue.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -563,7 +564,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{C54A88FF-94DA-43F2-B772-57A131434BED}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Target/Globals/Robot Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Target/Support Code/Robot Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
